@@ -33,6 +33,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 5px;
+    flex-wrap: wrap;
 }
 
 /*Header CSS*/
@@ -47,7 +48,7 @@ body {
     background-color: #b5d9f5;
 }
 
-.logo img {
+.img {
     width: 100%;
     display: block;
 }
@@ -84,44 +85,3 @@ body {
     gap: 29px;
  }
 
- /*Hero Section CSS*/
-
- .hero_section{
-    margin-bottom: 50px;
- }
-
- .hero_text{
-    width: 100%;
-    max-width: 550px;
- }
-
- .hero_image{
-    width: 100%;
-    max-width: 500px;
- }
-
-
- .hero_content {
-    display: flex;
-    width: 1200px;
-    flex-wrap: wrap;
-    flex-basis: 50%;
-}
-
-/*Work Section CSS*/
-
-.work_section{
-    margin-bottom: 50px;
- }
-
-.work_content{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 25%;
-}
-
-.work_content_block{
-    width: 100%;
-    max-width: 25%;
-    min-width: 270px;
-}
