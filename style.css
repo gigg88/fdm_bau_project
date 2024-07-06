@@ -24,12 +24,14 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: var(--button_color);
-    
+ }
 
+body {
+    background: var(--button_color);
+    color: var(--button_header_text_color);
 }
 
-.container {
+.container_wrapper {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
