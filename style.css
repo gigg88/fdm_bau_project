@@ -210,6 +210,10 @@ img {
   margin-bottom: 30px;
 }
 
+.project_header {
+  margin-bottom: 30px;
+}
+
 .project_card_list {
   display: flex;
   flex-wrap: wrap;
@@ -233,4 +237,23 @@ img {
 
 .project_description {
   color: var(--button_header_text_color);
+}
+
+/*Project Section CSS*/
+.contact-section {
+  margin-bottom: 30px;
+}
+
+.contact_image img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.contact_header {
+  margin-bottom: 30px;
+}
+
+.contact_content {
+  display: flex;
 }
