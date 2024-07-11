@@ -8,14 +8,14 @@
 
 :root {
   --main_text_color: #2F281E;
-  --button_color: #BCD0E5;
+  --button_color: #f0f3f7;
   --h1_color: #2F281E;
   --p_hero: #544837;
   --second_text: #FF9900;
   --button_header_text_color: #173A56;
   --cursor_purple: #7752BE;
   --icon_heart:#F03E3D;
-  --icon_hourglass: #4DADF7;
+  --icon_hourglass: #d3e3f0;
 }
 
 html,
@@ -144,7 +144,8 @@ img {
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
-  margin-bottom: 45px; /* doesnt work  */
+  margin-bottom: 45px;
+  /* doesnt work  */
 }
 
 .hero_image {
@@ -169,6 +170,10 @@ img {
 
 .work_list {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .work_content_block {
@@ -217,4 +222,4 @@ img {
 
 .project_description {
   color: var(--button_header_text_color);
-}/*# sourceMappingURL=style.css.map */
+}
