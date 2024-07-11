@@ -173,14 +173,14 @@ img {
 
 .work_list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 1fr);
   margin-bottom: 30px;
   gap: 20px;
 }
 
 .work_content_block {
   width: 100%;
-  min-width: 270px;
+  height: auto;
   border: 1px solid var(--button_header_text_color);
   border-radius: 8px;
   padding: 20px;
@@ -194,7 +194,7 @@ img {
 
 .work_content_block p {
   width: 100%;
-  max-width: 25%;
+  max-width: 50%;
   min-width: 270px;
 }
 
